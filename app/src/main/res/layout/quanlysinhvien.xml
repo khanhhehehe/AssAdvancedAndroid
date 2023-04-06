@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:textColor="#00796B"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/student"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:id="@+id/btn_addclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm lớp"
+            android:textSize="24dp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#2196F3"
+            android:onClick="ShowDialogAdd"
+            />
+        <Button
+            android:id="@+id/btn_showclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem danh sách lớp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#2196F3"
+            />
+        <Button
+            android:id="@+id/btn_quanlysv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản lý sinh viên"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#2196F3"
+            />
+    </LinearLayout>
+</LinearLayout>
